@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Clears brainly's local storage to reset daily count an bypass the paywall
 // @author       Dwyriel
+// @license      MIT
 // @match        *://*brainly.in/*
 // @match        *://*brainly.com/*
 // @match        *://*brainly.it/*
