@@ -22,4 +22,6 @@
     'use strict';
 
     localStorage.clear();
+    //Uncomment to also clear sessionStorage in case they move from localStorage to it
+    //sessionStorage.clear();
 })();
