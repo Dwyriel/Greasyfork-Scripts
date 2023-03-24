@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove Youtube Propaganda
 // @namespace    https://github.com/Dwyriel
-// @version      1.0
+// @version      1.1
 // @description  Tries to remove any banner and other dismissibles that are plain annoying (or straight up propaganda).
 // @author       Dwyriel
 // @license      MIT
