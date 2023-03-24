@@ -13,9 +13,15 @@
 (function () {
     'use strict';
     const idsToRemove = ["big-yoodle", "clarify-box"];
+    const elementsToRemove = ["ytm-statement-banner-renderer"];
     const callback = () => {
         for (let id of idsToRemove)
             document.getElementById(id)?.remove();
+        for (let elementName of elementsToRemove) {
+            let elements = document.getElementsByTagName(elementName);
+            for (let element of elements)
+                element.remove();
+        }
     };
     const config = { attributes: true, childList: true, subtree: true };
     new MutationObserver(callback).observe(document.body, config);
