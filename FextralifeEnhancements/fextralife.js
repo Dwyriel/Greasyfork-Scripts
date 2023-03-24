@@ -7,7 +7,7 @@
 // @license      MIT
 // @match        https://*.fextralife.com/*
 // @grant        none
-// @homepageURL  https://github.com/Dwyriel/Fextralife-Enhancements
+// @homepageURL  https://github.com/Dwyriel/Greasyfork-Scripts
 // ==/UserScript==
 
 (function () {
