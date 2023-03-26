@@ -12,11 +12,15 @@
 
 (function () {
     'use strict';
-    const idsToRemove = ["big-yoodle", "clarify-box"];
+    const idsToRemove = [
+        "big-yoodle", //main page banner
+        "clarify-box" //video page "clarification"
+    ];
     const elementsToRemove = [
-        "ytm-statement-banner-renderer", "ytd-statement-banner-renderer", 
-        "ytm-clarification-renderer", "ytd-clarification-renderer", 
-        "ytm-info-panel-container-renderer", "ytd-info-panel-container-renderer"];
+        "ytm-statement-banner-renderer", "ytd-statement-banner-renderer", //main page banner
+        "ytm-clarification-renderer", "ytd-clarification-renderer", //search page "clarification" (specific topics only)
+        "ytm-info-panel-container-renderer", "ytd-info-panel-container-renderer" //search page "clarification" (specific topics only)
+    ];
     const callback = () => {
         for (let id of idsToRemove)
             document.getElementById(id)?.remove();
