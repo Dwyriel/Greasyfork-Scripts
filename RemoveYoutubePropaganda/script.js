@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove Youtube Propaganda
 // @namespace    https://github.com/Dwyriel
-// @version      1.1
+// @version      1.2
 // @description  Tries to remove any banner and other dismissibles that are plain annoying (or straight up propaganda).
 // @author       Dwyriel
 // @license      MIT
@@ -13,7 +13,7 @@
 (function () {
     'use strict';
     const idsToRemove = ["big-yoodle", "clarify-box"];
-    const elementsToRemove = ["ytm-statement-banner-renderer"];
+    const elementsToRemove = ["ytm-statement-banner-renderer", "ytd-clarification-renderer"];
     const callback = () => {
         for (let id of idsToRemove)
             document.getElementById(id)?.remove();
