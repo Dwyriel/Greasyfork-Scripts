@@ -15,6 +15,7 @@
 // @match        *://*brainly.pl/*
 // @match        *://*brainly.com.br/*
 // @grant        none
+// @run-at       document-start
 // @homepageURL  https://github.com/Dwyriel/Greasyfork-Scripts
 // ==/UserScript==
 
