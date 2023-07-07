@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Youtube Remove Video Watermark
 // @namespace    https://github.com/Dwyriel
-// @version      1.0
+// @version      1.1
 // @description  Simply removes the branding watermark from some videos, for slightly better video visibility.
 // @author       Dwyriel
 // @license      MIT
-// @match        *://*.youtube.com/watch?v=*
+// @match        *://*.youtube.com/*
 // @grant        none
 // @homepageURL  https://github.com/Dwyriel/Greasyfork-Scripts
 // ==/UserScript==
