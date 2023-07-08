@@ -14,17 +14,11 @@
     'use strict';
     const minMargin = 16, snapWidth = 480, desktopWidth = 1200, largeMobile = 768, maxMargin = 73.5 - minMargin;
     document.getElementById("sidebar-wrapper")?.remove();
-    document.getElementById('fextrastream')?.remove();
-    let wrapper = document.getElementById("wrapper");
+    document.getElementById("wrapper").style.paddingLeft = "0px";
     let fexMain = document.querySelector(".fex-main");
-    //makes the main content look good on bigger screens and remove the giant spacing on the upper part
     fexMain.style = "max-width: 1024px;";
-    document.getElementById("form-header").style = "max-height: 60px; margin-top: 0px;";
     const fixLayout = () => {
-        formHeader.childNodes.forEach(child => child.remove());
-        //window.innerWidth AND window.outerWidth had problems when the width was in the ranges of 475-480, body size was still correct but window size was going all over the place.. for whatever reason
-        let windowWidth = document.body.clientWidth;
-        wrapper.style.paddingLeft = windowWidth > snapWidth ? "4px" : "0px";
+        let windowWidth = window.innerWidth;
         let marginSize = "0px";
         if (windowWidth > desktopWidth)
             marginSize = "auto";
