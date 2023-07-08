@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         BrainlyBypassPaywall
+// @name         Brainly Bypass Paywall
 // @namespace    https://github.com/Dwyriel
 // @version      1.3.1
-// @description  Clears brainly's local storage to reset daily count to bypass the paywall
+// @description  Clears brainly's local storage to reset daily count to bypass the daily limit/paywall
 // @author       Dwyriel
 // @license      MIT
 // @match        *://*brainly.pl/*
