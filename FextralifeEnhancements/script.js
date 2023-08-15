@@ -22,8 +22,7 @@
     fexMain.style = "max-width: 1024px;";
     document.getElementById("form-header").style = "max-height: 60px; margin-top: 0px;";
     const fixLayout = () => {
-        //window.innerWidth AND window.outerWidth had problems when the width was in the ranges of 475-480, body size was still correct but window size was going all over the place.. for whatever reason
-        let windowWidth = document.body.clientWidth;
+        let windowWidth = window.innerWidth;
         navbar.style = windowWidth > desktopWidth && windowWidth < buggyNavbarBreakpoint ? "display: block !important" : "";
         wrapper.style.paddingLeft = windowWidth > snapWidth ? "4px" : "0px";
         let marginSize = "0px";
