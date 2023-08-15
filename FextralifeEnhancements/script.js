@@ -2,7 +2,7 @@
 // @name         Fextralife Remove Twitch and Fix Layout
 // @namespace    https://github.com/Dwyriel
 // @version      1.2
-// @description  Removes twitch stream and fix layout for better readability.
+// @description  Removes twitch stream and fix layout for better readability and usability.
 // @author       Dwyriel
 // @license      MIT
 // @match        https://*.fextralife.com/*
